@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Timer",
+    "description": "Timer extension which closes an active tab after a certain length of time spent on it",
+    "version": "1.0.0",
+    "icons":{ "128": "clock_128.png"},
+    "action":{
+        "default_icon":{
+            "16": "clock_16.png"
+        },
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs"
+        ]
+}
